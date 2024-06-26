@@ -1,7 +1,10 @@
-# Autonomous Driving Car Detection with YOLO 🚙
+# Face Recognition
 
 This project focuses on building a robust **face recognition system** using deep learning techniques. The main objective is to identify and verify individuals in images by analyzing and comparing facial features.
-<center> <img src="images\Face.jpg" style="width:450px;"></center>
+
+<div align="center">
+<img src="images\Face.jpg" style="width:450px;">
+</div>
 
 ![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
 ![Convolutional Neural Networks](https://img.shields.io/badge/Skill-Convolutional%20Neural%20Networks-blueviolet)
@@ -49,8 +52,9 @@ jupyter notebook Face_Recognition.ipynb
 
 The face recognition system is capable of accurately identifying and verifying individuals in various images. The performance is demonstrated through a series of tests and visualizations in the provided Jupyter Notebook.
 
-<center>
-<img src="images\younes.jpg" style="width:80px;"></center>
-<center><img src="images\result-face.png" style="width:80px;"></center>
-<center><img src="images\benoit.jpg" style="width:80px;"></center>
-<center><img src="images\face_result_02.png" style="width:80px;"></center>
+<div align="center">
+<img src="images\younes.jpg" style="width:100px;"></center>
+<center><img src="images\result-face.png" style="width:300px;"></center>
+<center><img src="images\benoit.jpg" style="width:100px;"></center>
+<center><img src="images\face_result_02.png" style="width:300px;"></center>
+</div>
