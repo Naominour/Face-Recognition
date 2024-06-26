@@ -1,15 +1,15 @@
 # Autonomous Driving Car Detection with YOLO 🚙
 
-This project focuses on implementing an **object detection** system for autonomous driving using the powerful **YOLO (You Only Look Once)** model. The main goal is to build a car detection system that identifies cars in images captured by a camera mounted on the hood of a self-driving car.
-<center> <img src="nb_images\dataset-card.png" style="width:400px;"></center>
+This project focuses on building a robust **face recognition system** using deep learning techniques. The main objective is to identify and verify individuals in images by analyzing and comparing facial features.
+<center> <img src="images\Face.jpg" style="width:450px;"></center>
 
-![Object Detection](https://img.shields.io/badge/Skill-Object%20Detection-yellow)
-![YOLO model](https://img.shields.io/badge/Skill-YOLO%20Model-blueviolet)
-![Image Preprocessing](https://img.shields.io/badge/Skill-Image%20Preprocessing-green)
+![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
+![Convolutional Neural Networks](https://img.shields.io/badge/Skill-Convolutional%20Neural%20Networks-blueviolet)
+![Face Recognition Algorithms](https://img.shields.io/badge/Skill-Face%20Recognition%20Algorithms-green)
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-orange)
 ![Keras](https://img.shields.io/badge/Skill-Keras-yellow)
 ![Computer Vision](https://img.shields.io/badge/Skill-Computer%20Vision-brightblue)
-![Bounding Box Visualization](https://img.shields.io/badge/Skill-Bounding%20Box%20Visualization-brightblue)
+![Image Processing](https://img.shields.io/badge/SkillImage%20Processing-brightblue)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-orange)
 
 ## Frameworks and Libraries
@@ -19,37 +19,38 @@ This project focuses on implementing an **object detection** system for autonomo
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-green.svg?style=flat&logo=matplotlib)
 
 ## Project Architecture
-1. **Data Labeling**:
-   - `Bounding boxes` drawn around cars in the images.
 
-2. **Model Loading**:
-   - Pre-trained `YOLO model` loaded.
+The project is structured around a convolutional neural network (CNN) that is trained to extract and compare facial features from images. The architecture includes layers for convolution, pooling, and fully connected neural networks that together enable accurate face recognition.
 
-3. **Image Preprocessing**:
-   - Preparing images for the model.
-
-4. **Model Prediction**:
-   -  Running the model to detect cars.
-
-5. **Result Visualization**:
-   - Drawing bounding boxes on detected cars.
 
 ## Key Features
-- Implementation of the `YOLO object detection model`.
-- Efficient `image preprocessing pipeline`.
-- Accurate `car detection in real-time` images.
-- Visualization of detection results with `bounding boxes`.
+- Preprocessing of images for face detection and alignment
+- Feature extraction using a pre-trained CNN.
+- Face verification and identification
 
 ## Usage
-- Download the pre trained model data from [here](https://drive.google.com/file/d/1ozWxLf-JY6Qe6Ik6-KLVCOdayGipYj-T/view?usp=drive_link) and put it in the root directory.
-- Ensure all dependencies are installed (TensorFlow, Keras, PIL, etc.).
-- Load the pre-trained YOLO model.
-- Preprocess input images.
-- Run the YOLO model to detect cars.
-- Visualize the results with bounding boxes drawn on detected cars.
-
+**Clone the repository:**
+```bash
+git clone https://github.com/yourusername/Face_Recognition_Project.git
+```
+**Navigate to the project directory:**
+```bash
+cd Face_Recognition_Project
+```
+**Install the required dependencies:**
+```bash
+pip install -r requirements.txt
+```
+**Run the Jupyter Notebook to see the implementation:**
+```bash
+jupyter notebook Face_Recognition.ipynb
+```
 ## Results
 
-The project successfully detects cars in images taken from a car-mounted camera. The detected cars are highlighted with bounding boxes, demonstrating the effectiveness of the YOLO model in real-time object detection.
+The face recognition system is capable of accurately identifying and verifying individuals in various images. The performance is demonstrated through a series of tests and visualizations in the provided Jupyter Notebook.
+
 <center>
-<img src="nb_images\result.png" style="width:400px;"></center>
+<img src="images\younes.jpg" style="width:80px;"></center>
+<center><img src="images\result-face.png" style="width:80px;"></center>
+<center><img src="images\benoit.jpg" style="width:80px;"></center>
+<center><img src="images\face_result_02.png" style="width:80px;"></center>
