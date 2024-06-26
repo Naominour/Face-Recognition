@@ -3,7 +3,7 @@
 This project focuses on building a robust **face recognition system** using deep learning techniques. The main objective is to identify and verify individuals in images by analyzing and comparing facial features.
 
 <div align="center">
-<img src="images\Face.jpg" style="width:450px;"> Designed by Freepik
+<img src="images\Face.jpg" style="width:450px;"> <br>Designed by Freepik
 </div>
 
 ![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
